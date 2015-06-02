@@ -1,0 +1,94 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'node-bluetooth-serial-port',
+1 verbose cli   '--save' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.36
+4 warn package.json mqtt_e1@1.0.0 No description
+5 warn package.json mqtt_e1@1.0.0 No repository field.
+6 warn package.json mqtt_e1@1.0.0 No README data
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'node-bluetooth-serial-port', null ]
+9 verbose cache add name=undefined spec="node-bluetooth-serial-port" args=["node-bluetooth-serial-port",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'node-bluetooth-serial-port',
+10 verbose parsed url   path: 'node-bluetooth-serial-port',
+10 verbose parsed url   href: 'node-bluetooth-serial-port' }
+11 silly lockFile 05a721c3-node-bluetooth-serial-port node-bluetooth-serial-port
+12 verbose lock node-bluetooth-serial-port /home/leffen/.npm/05a721c3-node-bluetooth-serial-port.lock
+13 silly lockFile 05a721c3-node-bluetooth-serial-port node-bluetooth-serial-port
+14 silly lockFile 05a721c3-node-bluetooth-serial-port node-bluetooth-serial-port
+15 verbose addNamed [ 'node-bluetooth-serial-port', '' ]
+16 verbose addNamed [ null, '*' ]
+17 silly lockFile de1a141f-node-bluetooth-serial-port node-bluetooth-serial-port@
+18 verbose lock node-bluetooth-serial-port@ /home/leffen/.npm/de1a141f-node-bluetooth-serial-port.lock
+19 silly addNameRange { name: 'node-bluetooth-serial-port',
+19 silly addNameRange   range: '*',
+19 silly addNameRange   hasData: false }
+20 verbose request where is /node-bluetooth-serial-port
+21 verbose request registry https://registry.npmjs.org/
+22 verbose request id 3ad0ac77a47d6bdf
+23 verbose url raw /node-bluetooth-serial-port
+24 verbose url resolving [ 'https://registry.npmjs.org/',
+24 verbose url resolving   './node-bluetooth-serial-port' ]
+25 verbose url resolved https://registry.npmjs.org/node-bluetooth-serial-port
+26 verbose request where is https://registry.npmjs.org/node-bluetooth-serial-port
+27 info trying registry request attempt 1 at 21:46:58
+28 http GET https://registry.npmjs.org/node-bluetooth-serial-port
+29 http 404 https://registry.npmjs.org/node-bluetooth-serial-port
+30 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+30 verbose headers   'content-type': 'application/json',
+30 verbose headers   'cache-control': 'max-age=0',
+30 verbose headers   'content-length': '51',
+30 verbose headers   'accept-ranges': 'bytes',
+30 verbose headers   date: 'Mon, 01 Jun 2015 21:46:59 GMT',
+30 verbose headers   via: '1.1 varnish',
+30 verbose headers   age: '0',
+30 verbose headers   connection: 'keep-alive',
+30 verbose headers   'x-served-by': 'cache-ams4128-AMS',
+30 verbose headers   'x-cache': 'MISS',
+30 verbose headers   'x-cache-hits': '0',
+30 verbose headers   'x-timer': 'S1433195218.917696,VS0,VE384' }
+31 silly registry.get cb [ 404,
+31 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+31 silly registry.get     'content-type': 'application/json',
+31 silly registry.get     'cache-control': 'max-age=0',
+31 silly registry.get     'content-length': '51',
+31 silly registry.get     'accept-ranges': 'bytes',
+31 silly registry.get     date: 'Mon, 01 Jun 2015 21:46:59 GMT',
+31 silly registry.get     via: '1.1 varnish',
+31 silly registry.get     age: '0',
+31 silly registry.get     connection: 'keep-alive',
+31 silly registry.get     'x-served-by': 'cache-ams4128-AMS',
+31 silly registry.get     'x-cache': 'MISS',
+31 silly registry.get     'x-cache-hits': '0',
+31 silly registry.get     'x-timer': 'S1433195218.917696,VS0,VE384' } ]
+32 silly lockFile de1a141f-node-bluetooth-serial-port node-bluetooth-serial-port@
+33 silly lockFile de1a141f-node-bluetooth-serial-port node-bluetooth-serial-port@
+34 error 404 404 Not Found: node-bluetooth-serial-port
+34 error 404
+34 error 404 'node-bluetooth-serial-port' is not in the npm registry.
+34 error 404 You should bug the author to publish it
+34 error 404 It was specified as a dependency of 'mqtt_e1'
+34 error 404
+34 error 404 Maybe try 'npm search bluetooth serial port'
+34 error 404
+34 error 404 Note that you can also install from a
+34 error 404 tarball, folder, or http url, or git url.
+35 error System Linux 3.18.11+
+36 error command "/usr/local/bin/node" "/usr/local/bin/npm" "install" "node-bluetooth-serial-port" "--save"
+37 error cwd /home/leffen/p/mqtt_e1
+38 error node -v v0.10.36
+39 error npm -v 1.4.28
+40 error code E404
+41 verbose exit [ 1, true ]
