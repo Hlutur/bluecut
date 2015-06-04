@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "bluetooth-serial-port": "^1.2.3",
-    "mqtt": "^1.2.0"
+    "mqtt": "^1.2.0",
+    "readline-sync": "^1.2.17"
   }
 }

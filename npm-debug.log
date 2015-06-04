@@ -1,94 +1,86 @@
 0 info it worked if it ends with ok
-1 verbose cli [ '/usr/local/bin/node',
-1 verbose cli   '/usr/local/bin/npm',
-1 verbose cli   'install',
-1 verbose cli   'node-bluetooth-serial-port',
-1 verbose cli   '--save' ]
-2 info using npm@1.4.28
-3 info using node@v0.10.36
-4 warn package.json mqtt_e1@1.0.0 No description
-5 warn package.json mqtt_e1@1.0.0 No repository field.
-6 warn package.json mqtt_e1@1.0.0 No README data
-7 verbose readDependencies using package.json deps
-8 verbose cache add [ 'node-bluetooth-serial-port', null ]
-9 verbose cache add name=undefined spec="node-bluetooth-serial-port" args=["node-bluetooth-serial-port",null]
-10 verbose parsed url { protocol: null,
-10 verbose parsed url   slashes: null,
-10 verbose parsed url   auth: null,
-10 verbose parsed url   host: null,
-10 verbose parsed url   port: null,
-10 verbose parsed url   hostname: null,
-10 verbose parsed url   hash: null,
-10 verbose parsed url   search: null,
-10 verbose parsed url   query: null,
-10 verbose parsed url   pathname: 'node-bluetooth-serial-port',
-10 verbose parsed url   path: 'node-bluetooth-serial-port',
-10 verbose parsed url   href: 'node-bluetooth-serial-port' }
-11 silly lockFile 05a721c3-node-bluetooth-serial-port node-bluetooth-serial-port
-12 verbose lock node-bluetooth-serial-port /home/leffen/.npm/05a721c3-node-bluetooth-serial-port.lock
-13 silly lockFile 05a721c3-node-bluetooth-serial-port node-bluetooth-serial-port
-14 silly lockFile 05a721c3-node-bluetooth-serial-port node-bluetooth-serial-port
-15 verbose addNamed [ 'node-bluetooth-serial-port', '' ]
-16 verbose addNamed [ null, '*' ]
-17 silly lockFile de1a141f-node-bluetooth-serial-port node-bluetooth-serial-port@
-18 verbose lock node-bluetooth-serial-port@ /home/leffen/.npm/de1a141f-node-bluetooth-serial-port.lock
-19 silly addNameRange { name: 'node-bluetooth-serial-port',
-19 silly addNameRange   range: '*',
-19 silly addNameRange   hasData: false }
-20 verbose request where is /node-bluetooth-serial-port
-21 verbose request registry https://registry.npmjs.org/
-22 verbose request id 3ad0ac77a47d6bdf
-23 verbose url raw /node-bluetooth-serial-port
-24 verbose url resolving [ 'https://registry.npmjs.org/',
-24 verbose url resolving   './node-bluetooth-serial-port' ]
-25 verbose url resolved https://registry.npmjs.org/node-bluetooth-serial-port
-26 verbose request where is https://registry.npmjs.org/node-bluetooth-serial-port
-27 info trying registry request attempt 1 at 21:46:58
-28 http GET https://registry.npmjs.org/node-bluetooth-serial-port
-29 http 404 https://registry.npmjs.org/node-bluetooth-serial-port
-30 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
-30 verbose headers   'content-type': 'application/json',
-30 verbose headers   'cache-control': 'max-age=0',
-30 verbose headers   'content-length': '51',
-30 verbose headers   'accept-ranges': 'bytes',
-30 verbose headers   date: 'Mon, 01 Jun 2015 21:46:59 GMT',
-30 verbose headers   via: '1.1 varnish',
-30 verbose headers   age: '0',
-30 verbose headers   connection: 'keep-alive',
-30 verbose headers   'x-served-by': 'cache-ams4128-AMS',
-30 verbose headers   'x-cache': 'MISS',
-30 verbose headers   'x-cache-hits': '0',
-30 verbose headers   'x-timer': 'S1433195218.917696,VS0,VE384' }
-31 silly registry.get cb [ 404,
-31 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
-31 silly registry.get     'content-type': 'application/json',
-31 silly registry.get     'cache-control': 'max-age=0',
-31 silly registry.get     'content-length': '51',
-31 silly registry.get     'accept-ranges': 'bytes',
-31 silly registry.get     date: 'Mon, 01 Jun 2015 21:46:59 GMT',
-31 silly registry.get     via: '1.1 varnish',
-31 silly registry.get     age: '0',
-31 silly registry.get     connection: 'keep-alive',
-31 silly registry.get     'x-served-by': 'cache-ams4128-AMS',
-31 silly registry.get     'x-cache': 'MISS',
-31 silly registry.get     'x-cache-hits': '0',
-31 silly registry.get     'x-timer': 'S1433195218.917696,VS0,VE384' } ]
-32 silly lockFile de1a141f-node-bluetooth-serial-port node-bluetooth-serial-port@
-33 silly lockFile de1a141f-node-bluetooth-serial-port node-bluetooth-serial-port@
-34 error 404 404 Not Found: node-bluetooth-serial-port
-34 error 404
-34 error 404 'node-bluetooth-serial-port' is not in the npm registry.
-34 error 404 You should bug the author to publish it
-34 error 404 It was specified as a dependency of 'mqtt_e1'
-34 error 404
-34 error 404 Maybe try 'npm search bluetooth serial port'
-34 error 404
-34 error 404 Note that you can also install from a
-34 error 404 tarball, folder, or http url, or git url.
-35 error System Linux 3.18.11+
-36 error command "/usr/local/bin/node" "/usr/local/bin/npm" "install" "node-bluetooth-serial-port" "--save"
-37 error cwd /home/leffen/p/mqtt_e1
-38 error node -v v0.10.36
-39 error npm -v 1.4.28
-40 error code E404
-41 verbose exit [ 1, true ]
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'device-inquery' ]
+2 info using npm@2.7.5
+3 info using node@v0.12.2
+4 verbose node symlink /usr/local/bin/node
+5 warn package.json mqtt_e1@1.0.0 No description
+6 warn package.json mqtt_e1@1.0.0 No repository field.
+7 warn package.json mqtt_e1@1.0.0 No README data
+8 silly cache add args [ 'device-inquery', null ]
+9 verbose cache add spec device-inquery
+10 silly cache add parsed spec { raw: 'device-inquery',
+10 silly cache add   scope: null,
+10 silly cache add   name: 'device-inquery',
+10 silly cache add   rawSpec: '',
+10 silly cache add   spec: '*',
+10 silly cache add   type: 'range' }
+11 verbose addNamed device-inquery@*
+12 silly addNamed semver.valid null
+13 silly addNamed semver.validRange *
+14 silly addNameRange { name: 'device-inquery', range: '*', hasData: false }
+15 silly mapToRegistry name device-inquery
+16 silly mapToRegistry using default registry
+17 silly mapToRegistry registry https://registry.npmjs.org/
+18 silly mapToRegistry uri https://registry.npmjs.org/device-inquery
+19 verbose addNameRange registry:https://registry.npmjs.org/device-inquery not in flight; fetching
+20 verbose request uri https://registry.npmjs.org/device-inquery
+21 verbose request no auth needed
+22 info attempt registry request try #1 at 01:24:19
+23 verbose request id bc57f2096ecd8333
+24 http request GET https://registry.npmjs.org/device-inquery
+25 http 404 https://registry.npmjs.org/device-inquery
+26 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+26 verbose headers   'content-type': 'application/json',
+26 verbose headers   'cache-control': 'max-age=0',
+26 verbose headers   'content-length': '51',
+26 verbose headers   'accept-ranges': 'bytes',
+26 verbose headers   date: 'Thu, 04 Jun 2015 23:24:19 GMT',
+26 verbose headers   via: '1.1 varnish',
+26 verbose headers   age: '0',
+26 verbose headers   connection: 'keep-alive',
+26 verbose headers   'x-served-by': 'cache-fra1220-FRA',
+26 verbose headers   'x-cache': 'MISS',
+26 verbose headers   'x-cache-hits': '0',
+26 verbose headers   'x-timer': 'S1433460259.569019,VS0,VE106' }
+27 silly get cb [ 404,
+27 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+27 silly get     'content-type': 'application/json',
+27 silly get     'cache-control': 'max-age=0',
+27 silly get     'content-length': '51',
+27 silly get     'accept-ranges': 'bytes',
+27 silly get     date: 'Thu, 04 Jun 2015 23:24:19 GMT',
+27 silly get     via: '1.1 varnish',
+27 silly get     age: '0',
+27 silly get     connection: 'keep-alive',
+27 silly get     'x-served-by': 'cache-fra1220-FRA',
+27 silly get     'x-cache': 'MISS',
+27 silly get     'x-cache-hits': '0',
+27 silly get     'x-timer': 'S1433460259.569019,VS0,VE106' } ]
+28 verbose stack Error: 404 Not Found: device-inquery
+28 verbose stack     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:245:14)
+28 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:170:14)
+28 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:360:22)
+28 verbose stack     at Request.emit (events.js:110:17)
+28 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1202:14)
+28 verbose stack     at Request.emit (events.js:129:20)
+28 verbose stack     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1150:12)
+28 verbose stack     at IncomingMessage.emit (events.js:129:20)
+28 verbose stack     at _stream_readable.js:908:16
+28 verbose stack     at process._tickCallback (node.js:355:11)
+29 verbose statusCode 404
+30 verbose pkgid device-inquery
+31 verbose cwd /Users/leffen/p/mqtt_e1
+32 error Darwin 14.3.0
+33 error argv "node" "/usr/local/bin/npm" "install" "device-inquery"
+34 error node v0.12.2
+35 error npm  v2.7.5
+36 error code E404
+37 error 404 Not Found: device-inquery
+37 error 404
+37 error 404 'device-inquery' is not in the npm registry.
+37 error 404 You should bug the author to publish it (or use the name yourself!)
+37 error 404 It was specified as a dependency of 'mqtt_e1'
+37 error 404
+37 error 404 Note that you can also install from a
+37 error 404 tarball, folder, http url, or git url.
+38 verbose exit [ 1, true ]
