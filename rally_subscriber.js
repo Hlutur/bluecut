@@ -1,23 +1,17 @@
 var mqtt    = require('mqtt');
-var client  = mqtt.connect('mqtt:127.0.0.1:1883');
-var topic = 'hello';
+var options={port: 1883, host: '192.168.3.124'}
+var client  = mqtt.connect(options);
+var topic = 'rally_data';
 
 console.log('Starting');
+
 client.on('connect', function () {
   console.log('connected');
   client.subscribe(topic);
-  client.publish(topic, 'Hello mqtt');
-  console.log('Message published');
 });
 
 client.on('message', function (topic, message) {
-  // message is Buffer 
-  console.log(topic);
   console.log(message.toString());
-  client.end();
 });
-
-
-console.log('Ending ...');
 
 
