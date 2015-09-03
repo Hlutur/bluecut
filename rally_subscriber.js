@@ -1,5 +1,5 @@
 var mqtt = require('mqtt');
-var options = {port: 1883, host: 'localhost'}
+var options = {port: 1883, host: 'test.mosquitto.org'}
 var client = mqtt.connect(options);
 var topic = 'fullstackfest/car/#';
 

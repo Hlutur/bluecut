@@ -10,7 +10,7 @@ if(lines.length == 0) {
 
 var lnNum = 0;
 
-var options = {port: 1883, host: 'localhost'}
+var options = {port: 1883, host: 'test.mosquitto.org'}
 var client = mqtt.connect(options);
 
 client.on('message', function (topic, message) {
