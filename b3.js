@@ -20,7 +20,12 @@ btSerial.connect(address, channel, function () {
 		line = "";
 	}
 	else {
-		line = line + data;
+                var splitted = data.split(/\r\n|\r|\n/g);
+		line = line + splitted[0];
+                if (splitted.length > 1){ // lineshift
+			console.log('Full line: ' + line);
+			line = splitted[1];
+                }
 	} 
   });
 }, function () {
