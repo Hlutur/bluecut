@@ -5,7 +5,7 @@ var rabbit = '30-14-06-17-05-32',
     turtle='30-14-06-09-10-16',
   channel=1;
 
-var address = turtle;
+var address = rabbit;
 
 btSerial.connect(address, channel, function () {
   console.log('connected to ',address);
@@ -14,10 +14,13 @@ btSerial.connect(address, channel, function () {
   var line="";
   btSerial.on('data', function (buffer) {
 	var data = buffer.toString('utf-8');
-        console.log(data.length,data);
-	if(data.length==0) {
+        var array = data.split("\n");
+
+        //console.log(array.length,array);
+	if(array.length>1) {
+		line = line + array[0];
 		console.log(line);
-		line = "";
+		line = array[1];
 	}
 	else {
 		line = line + data;
