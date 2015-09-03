@@ -3,6 +3,7 @@ var options = {port: 1883, host: 'localhost'}
 var client = mqtt.connect(options);
 var topic = 'fullstackfest/car/#';
 
+
 var handler = MessageHandler();
 
 console.log('Starting');
